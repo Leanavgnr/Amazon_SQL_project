@@ -9,7 +9,7 @@ Pour compléter cette analyse, un diagramme ERD a été réalisé afin d’illus
 ## Configuration et Conception de la Base de Données
 
 ### Structure du Schéma
-
+--
 
 ```sql 
 -- Category table
