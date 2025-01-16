@@ -6,13 +6,14 @@ Ce projet m’a permis d’aborder des problématiques variées telles que l’a
 
 Pour compléter cette analyse, un diagramme ERD a été réalisé afin d’illustrer la structure de la base de données et les liens entre les différentes tables.
 
+![ERD Scratch](https://github.com/Leanavgnr/Amazon_SQL_project/blob/main/Amazon%20ERD.png)
+
 ## Configuration et Conception de la Base de Données
 
 ### Structure du Schéma
---
 
 ```sql 
--- Category table
+-- table Category
 Drop table if exists category;
 CREATE TABLE category 
 (
@@ -21,7 +22,7 @@ CREATE TABLE category
 );
 
 
--- Customers table
+-- Table customers
 Drop table if exists customers;
 CREATE TABLE customers 
 (
@@ -33,7 +34,7 @@ CREATE TABLE customers
 );
 
 
--- Sellers table
+-- Table sellers 
 Drop table if exists sellers;
 CREATE TABLE sellers 
 (
@@ -43,7 +44,7 @@ CREATE TABLE sellers
 );
 
 
--- product table
+-- Table product 
 Drop table if exists products;
 CREATE TABLE products
 (
@@ -56,7 +57,7 @@ CREATE TABLE products
 );
 
 
--- Orders Table
+-- Table orders 
 Drop table if exists orders;
 CREATE TABLE orders 
 (
@@ -70,7 +71,7 @@ CREATE TABLE orders
 );
 
 
--- Order_item table
+-- Table Order_item
 Drop table if exists order_items;
 CREATE TABLE order_items 
 (
@@ -84,7 +85,7 @@ CREATE TABLE order_items
 );
 
 
--- Payments table
+-- Table payments 
 Drop table if exists payments;
 CREATE TABLE payments 
 (
@@ -96,7 +97,7 @@ CREATE TABLE payments
 );
 
 
--- Shipping Table
+-- Table shipping 
 Drop table if exists shipping;
 CREATE TABLE shipping 
 (
@@ -110,7 +111,7 @@ CREATE TABLE shipping
 );
 
 
--- Inventory Table
+-- Table inventory 
 Drop table if exists inventory;
 CREATE TABLE inventory
 (
