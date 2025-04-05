@@ -431,8 +431,8 @@ LIMIT 5;
  <br>
 
 
-**11. Marge de Bénéfice des Produits**  
-Calcul de la marge de bénéfice pour chaque produit.  
+**11. Marge Bénéficiaire des Produits**  
+Calcul de la marge bénéficiaire pour chaque produit.  
 Défi : Classer les produits par leur marge de bénéfice, de la plus élevée à la plus basse.
 */
 
@@ -592,7 +592,6 @@ GROUP BY returned_orders.customer_id, returned_orders.last_name, returned_orders
 Identification des 10 produits ayant le ratio de baisse de revenus le plus élevé entre 2022 et 2023.  
 Défi : Retourner l'ID produit, le nom du produit, le nom de la catégorie, les revenus de 2022 et 2023, et le ratio de baisse de revenus en pourcentage.  
 Note : Ratio de baisse = (revenus_2023 - revenus_2022) / revenus_2022 * 100
-*/
 
 ```sql
 -- CTE pour calculer le montant total des ventes pour 2022
